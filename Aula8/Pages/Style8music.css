@@ -1,0 +1,57 @@
+body{
+    background: black;
+    color: darkslategrey;
+    font-family: 'Segoe UI',sans-serif;
+    margin: 0;
+}
+
+header{
+    background: lightcoral;
+    padding: 32px 0;
+    text-align: center;
+
+}
+
+nav{
+    background: rgb(199, 186, 72);
+    padding: 8px 0;
+    text-align: center;
+}
+nav a{
+    color: aquamarine;
+    margin: 0 32px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    gap: 32px;
+    margin: 32px;
+}
+article{
+    background: #112D4E;
+    flex: 1;
+    padding: 32px;
+}
+a:hover{
+    color: #DBE2EF;
+    font-size: 32px;
+    transition: 0.4s;
+    border-bottom: 8px solid #DBE2EF;
+    font-weight: bold;
+}
+section:hover{
+    background: #467cbe;
+    transition: 1s;
+
+}
+section{
+    background: #3F72AF;
+    margin-top: 32px;
+    padding: 32px;
+}
+aside{
+    background: #85F4FF;
+    padding: 32px;
+    width: 400px;
+}
